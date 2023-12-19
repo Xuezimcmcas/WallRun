@@ -1,0 +1,13 @@
+name: WallRunPlugin
+version: '${project.version}'
+main: com.neteasemc.WallRunPlugin
+commands:
+  flymode:
+    description: Toggle fly mode.
+    usage: /<command> [on|off]
+    permission: Xueziplugin.flymode
+
+permissions:
+  Xueziplugin.flymode:
+    description: Allows user to toggle fly mode.
+    default: op
